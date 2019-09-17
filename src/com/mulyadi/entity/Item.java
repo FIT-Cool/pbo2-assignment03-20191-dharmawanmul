@@ -1,10 +1,12 @@
 package com.mulyadi.entity;
 
+import java.time.LocalDate;
+
 public class Item {
     private String nama;
     private int ID;
     private Category category;
-    private String date;
+    private LocalDate date;
 
     public String getNama() {
         return nama;
@@ -30,11 +32,11 @@ public class Item {
         this.category = category;
     }
 
-    public String getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 }

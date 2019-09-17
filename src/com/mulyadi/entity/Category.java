@@ -19,4 +19,9 @@ public class Category {
     public void setID(int ID) {
         this.ID = ID;
     }
+
+    @Override
+    public String toString() {
+        return this.nama;
+    }
 }
